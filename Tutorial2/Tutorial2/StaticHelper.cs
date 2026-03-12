@@ -13,6 +13,11 @@ public class StaticHelper
     public void describeProblem()
     {
         problem = Console.ReadLine();
+        if (problem == "")
+        {
+            throw new Exception("Message is empty");
+        }
+
     }
 
 
