@@ -7,4 +7,17 @@ public class StaticHelper
     public int age;
 
 
+    private string problem = "";
+
+
+    public void describeProblem()
+    {
+        problem = Console.ReadLine();
+    }
+
+
+
+
+
+
 }
