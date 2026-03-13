@@ -20,4 +20,5 @@ int CalclateAVG(int[] arr)
 int CalculateMIN(int[] arr)
 {
     Array.Sort(arr);
+    return arr[0];
 }
