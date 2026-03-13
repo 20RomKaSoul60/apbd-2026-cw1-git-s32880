@@ -12,6 +12,10 @@ int CalclateAVG(int[] arr)
 
 
     return tmp/arr.Length;
+}
 
-
+int CalculateMAX(int[] arr)
+{
+    Array.Sort(arr);
+    return arr[arr.Length - 1];
 }
