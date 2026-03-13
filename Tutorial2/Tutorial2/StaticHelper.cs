@@ -3,8 +3,28 @@ namespace Tutorial2;
 public class StaticHelper
 {
 
-    public string name;
-    public int age;
+    public string name
+    {
+        get
+        {
+            return name;
+        }
+        set
+        {
+            name = value;
+        }
+    }
+
+    public int age{
+        get
+        {
+            return age;
+        }
+        set
+        {
+            age = value;
+        }
+    }
 
 
     private string problem = "";
