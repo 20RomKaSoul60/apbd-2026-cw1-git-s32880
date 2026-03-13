@@ -1,6 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
-Console.WriteLine("Hello, World!");
+Console.WriteLine("Creating new math funcs");
 
 int CalclateAVG(int[] arr)
 {
