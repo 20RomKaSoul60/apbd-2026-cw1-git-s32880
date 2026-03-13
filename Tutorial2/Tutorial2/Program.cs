@@ -5,9 +5,13 @@ Console.WriteLine("Hello, World!");
 int CalclateAVG(int[] arr)
 {
     int tmp = 0;
+    for (int i = 0; i < arr.Length; i++)
+    {
+        tmp += arr[i];
+    }
 
 
-    return tmp;
+    return tmp/arr.Length;
 
 
 }
