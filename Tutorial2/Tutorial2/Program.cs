@@ -15,5 +15,3 @@ int CalclateAVG(int[] arr)
 
 
 }
-
-Console.WriteLine("We are creating math functions !");
