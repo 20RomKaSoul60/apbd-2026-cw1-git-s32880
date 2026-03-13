@@ -15,3 +15,9 @@ int CalclateAVG(int[] arr)
 
 
 }
+
+
+int CalculateMIN(int[] arr)
+{
+    
+}
